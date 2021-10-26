@@ -23,5 +23,4 @@ public class NotificationResource {
 		Page<NotificationDTO> page = service.notificationForCurrentUser(pageable);
 		return ResponseEntity.ok().body(page);
 	}
-
 }
